@@ -17,6 +17,7 @@
 
   background-color: aliceblue;
   border-radius: 10px;
+  font-size: inherit;
 
   display: flex;
   justify-content: center;
@@ -24,6 +25,7 @@
 
   &:hover {
     box-shadow: 0 0 10px gray;
+    background-color: rgb(212, 219, 225);
   }
 }
 
@@ -58,6 +60,13 @@
   height: 100%;
   background-color: aliceblue;
   border-radius: 10px;
+  overflow: hidden;
+
+  padding: 20px;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 .typing-area {
   width: 100%;
@@ -111,7 +120,7 @@
   justify-content: center;
   gap: 20px;
 
-  div {
+  .btn {
     width: 100%;
     flex: 1;
   }
